@@ -1,0 +1,24 @@
+/* src/UserProfile.css */
+
+.bg-primary {
+  background-color: #6E55FF !important;
+}
+
+.text-primary {
+  color: #6E55FF !important;
+}
+
+.btn-outline-primary {
+  color: #6E55FF;
+  border-color: #6E55FF;
+}
+
+.btn-outline-primary:hover {
+  background-color: #6E55FF;
+  color: white;
+}
+
+.table th {
+  width: 180px;
+  color: #6E55FF;
+}
