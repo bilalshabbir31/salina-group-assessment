@@ -4,10 +4,7 @@ import { useSelector } from "react-redux";
 const UserInfoDisplay = () => {
   const { responseData, status, error } = useSelector(
     (state) => state.formData
-  );
-
-  console.log(responseData.user);
-  
+  );  
 
   if (status === "loading") {
     return <p>Submitting data...</p>;
